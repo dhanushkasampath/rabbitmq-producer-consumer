@@ -11,9 +11,3 @@ public class SpringRabbitmqConsumerApplication {
 	}
 
 }
-
-
-// docker run -d --hostname my-rabbit --name some-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
-// after this command image will be pulled and run
-// this will be called. http://localhost:15672/#/
-// default username and password: guest and guest
